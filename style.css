@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aqua;
+    text-align: center;
+    overflow: hidden;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  
+}
+
+#weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    color: #fff;
+    background-size: cover;
+    border-right: 5px solid rgba(0, 128, 0, 1);
+}
+
+
+#search-location {
+    height: 100%;
+    border-left: 5px solid rgba(0, 128, 0, 1);
+    background-size: cover;
+}
+
+.current-temperature {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.current-weather {
+    padding: 1rem 4rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.daily-forecast {
+    display: flex;
+    margin: 1rem ;
+}
+
+.forecast-wrapper {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.current-weather {
+    background-color: rgba(0, 128, 0, 0.5);
+    border-radius: 1rem;
+    background-position: center;
+}
+
+.daily-forecast > div {
+    background-color: rgba(0, 128, 0, 0.5);
+    margin-left: 1rem;
+    padding: 1rem .5rem;
+    border-radius: 1rem;
+  
+}
+

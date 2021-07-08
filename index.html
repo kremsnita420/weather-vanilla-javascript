@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section id="weather-wrapper">
+            <div class="current-weather">
+                <h2 id="location">Ljubljana</h2>
+                <p id="current-location-weather">--</p>
+            </div>
+            <div class="forecast-wrapper">
+                <div id="daily"></div>
+                <div class="search"></div>
+            </div>
+        </section>
+    
+        <div id="search-location">
+            <header>
+                <input type="text" autocomplete="off" id="search-box" placeholder="Search for a city..." />
+            </header>
+            <main>
+                <div id="city"></div>
+                <div class="current">
+                    <div class="temp">--<span>°c</span></div>
+                    <div class="weather">--</div>
+                    <div class="hi-low">--°c / --°c</div>
+                </div>
+                
+            </main>
+        </div>
+    </main>
+    
+
+    <script src="/main.js"></script>
+</body>
+</html>
